@@ -11,3 +11,7 @@ explore routing and regex;
 use of regex in routes /a/ , /.*fly/
 reading the query params in the routing;
 reading the dynamc routes;
+
+handling multiple route handlers- play with the code 
+next()
+next function and errors along res.send();
