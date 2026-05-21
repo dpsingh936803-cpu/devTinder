@@ -1,12 +1,13 @@
 const express=require("express");
 const app=express();
-app.use("/user",(req,res,next)=>{
-    // res.send("user 1");
-    next();
+const {adminAuth}=require("./middlewares/auth");
+app.use("/admin",adminAuth)
 
-},(req,res,next)=>{
-    res.send("user2");
-    // next();
+app.get("/admin/getAllData",(req,res)=>{
+    res.send("All Data Send");
+})
+app.delete("/admin/deleteUser",(req,res)=>{
+    res.send("user delete sucessfully");
 })
 
 app.listen(3000,()=>{

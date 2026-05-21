@@ -15,3 +15,8 @@ reading the dynamc routes;
 handling multiple route handlers- play with the code 
 next()
 next function and errors along res.send();
+what is middlewares ? and why do we need it ?
+how express handle request and response behind the scene
+difference between app.use() and app.all();
+write a dummy adminauth middleware for all admin routes
+write a dummy userAuth middlewares for all user routes except user/login;
