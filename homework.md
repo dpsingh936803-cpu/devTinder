@@ -20,3 +20,14 @@ how express handle request and response behind the scene
 difference between app.use() and app.all();
 write a dummy adminauth middleware for all admin routes
 write a dummy userAuth middlewares for all user routes except user/login;
+
+create a free cluster  on mongodb official website (MongoDb atlas);
+Install mongoose library
+Connect your application to the database connectionUrl/devTiner
+calll the connectDB function and connect to database before starting application on 7777;
+
+create userSchema and a user model;
+create /signUp api to add data to database;
+push some documents to database by making api call from postman;
+saved the data;
+do error handling with try catch block . alwys do error handling when intreact with database
