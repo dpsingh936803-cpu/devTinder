@@ -31,3 +31,7 @@ create /signUp api to add data to database;
 push some documents to database by making api call from postman;
 saved the data;
 do error handling with try catch block . alwys do error handling when intreact with database
+difference between json and javascript object;
+add express.json() middle ware to our app.
+make signup api dynamic to recieve data from frontend .
+
