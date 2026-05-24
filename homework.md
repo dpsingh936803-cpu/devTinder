@@ -34,4 +34,11 @@ do error handling with try catch block . alwys do error handling when intreact w
 difference between json and javascript object;
 add express.json() middle ware to our app.
 make signup api dynamic to recieve data from frontend .
-
+user.findOne() with duplicates emailIds, which object returned .
+Api get user by email
+api feed api -> get/feed -> get all users from the database.
+create a api to delete a user;
+create a api to update the data of the user;
+difference between patch and put4
+explore the mongoose documentation specificly for model;
+what are options in model.findOneAndUpdate();
